@@ -9,7 +9,7 @@ const seven = document.getElementById("number7");
 const display = document.getElementsByClassName("calculator-screen")[0];
 const thirdButton = document.getElementsByTagName("button")[2];
 let firstNum = "";
-let secondNum = "";
+let secondNum = ""; 
 let operator = "";
 
 for (let i = 0; i < operators.length; i++) {
